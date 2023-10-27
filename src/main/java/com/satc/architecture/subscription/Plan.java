@@ -7,7 +7,8 @@ import lombok.Getter;
 @Getter
 public enum Plan {
     MONTHLY(30),
-    ANUAL(365);
+    ANUAL(365),
+    FREE(0);
 
 
 

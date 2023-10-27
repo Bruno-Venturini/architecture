@@ -1,5 +1,5 @@
 package com.satc.architecture.subscription.behaviors;
 
 public interface IChargeBehavior {
-    void performCharge();
+    void charge();
 }

@@ -5,6 +5,6 @@ public interface ISubscription {
     void performCancel();
     void performCharge();
     void performRenew();
-    void performSubscribe(Long idAccount, Plan plan);
+    ISubscription performSubscribe(Long idAccount, Plan plan);
 
 }
